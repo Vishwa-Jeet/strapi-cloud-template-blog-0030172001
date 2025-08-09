@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entity_options",
+  "info": {
+    "singularName": "entity-option",
+    "pluralName": "entity-options",
+    "displayName": "EntityOption"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

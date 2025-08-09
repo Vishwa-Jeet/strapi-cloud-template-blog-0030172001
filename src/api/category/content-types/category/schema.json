@@ -15,6 +15,9 @@
     "name": {
       "type": "string"
     },
+    "name_en": {
+      "type": "string"
+    },
     "slug": {
       "type": "uid"
     },
@@ -24,8 +27,11 @@
       "target": "api::article.article",
       "mappedBy": "category"
     },
-    "description": {
-      "type": "text"
+    "books": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::books.book",
+      "mappedBy": "category"
     }
   }
 }
